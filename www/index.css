@@ -1,0 +1,1359 @@
+div#container
+{
+   width: 970px;
+   position: relative;
+   margin: 0 auto 0 auto;
+   text-align: left;
+}
+body
+{
+   background-color: #FFFFFF;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   text-align: center;
+}
+@font-face
+{
+   font-family: "Proxima Nova Th";
+   src: url('ProximaNovaXbold.eot');
+   src: url('ProximaNovaXbold.eot?#iefix') format('embedded-opentype'),
+        url('ProximaNovaXbold.ttf') format('truetype'),
+        url('ProximaNovaXbold.woff') format('woff');
+}
+@font-face
+{
+   font-family: "Proxima Nova Rg";
+   src: url('ProximaNovaReg.eot');
+   src: url('ProximaNovaReg.eot?#iefix') format('embedded-opentype'),
+        url('ProximaNovaReg.ttf') format('truetype'),
+        url('ProximaNovaReg.woff') format('woff');
+}
+@-webkit-keyframes animate-flash
+{
+   0% { opacity: 1;  }
+   25% { opacity: 0;  }
+   50% { opacity: 1;  }
+   75% { opacity: 0;  }
+   100% { opacity: 1;  }
+}
+@-moz-keyframes animate-flash
+{
+   0% { opacity: 1;  }
+   25% { opacity: 0;  }
+   50% { opacity: 1;  }
+   75% { opacity: 0;  }
+   100% { opacity: 1;  }
+}
+@-o-keyframes animate-flash
+{
+   0% { opacity: 1;  }
+   25% { opacity: 0;  }
+   50% { opacity: 1;  }
+   75% { opacity: 0;  }
+   100% { opacity: 1;  }
+}
+@-ms-keyframes animate-flash
+{
+   0% { opacity: 1;  }
+   25% { opacity: 0;  }
+   50% { opacity: 1;  }
+   75% { opacity: 0;  }
+   100% { opacity: 1;  }
+}
+@keyframes animate-flash
+{
+   0% { opacity: 1;  }
+   25% { opacity: 0;  }
+   50% { opacity: 1;  }
+   75% { opacity: 0;  }
+   100% { opacity: 1;  }
+}
+a
+{
+   color: #0000FF;
+   text-decoration: underline;
+}
+a:visited
+{
+   color: #800080;
+}
+a:active
+{
+   color: #FF0000;
+}
+a:hover
+{
+   color: #0000FF;
+   text-decoration: underline;
+}
+a.style1
+{
+   color: #0080FA;
+   text-decoration: underline;
+}
+a.style1:visited
+{
+   color: #0080FA;
+   text-decoration: underline;
+}
+a.style1:active
+{
+   color: #0080FA;
+   text-decoration: underline;
+}
+a.style1:hover
+{
+   color: #05C00F;
+   text-decoration: underline;
+}
+a.style2
+{
+   color: #FFFFFF;
+   text-decoration: none;
+}
+a.style2:visited
+{
+   color: #FFFFFF;
+   text-decoration: none;
+}
+a.style2:active
+{
+   color: #FFFFFF;
+   text-decoration: none;
+}
+a.style2:hover
+{
+   color: #05C00F;
+   text-decoration: underline;
+}
+#indexSlideShow1 .image
+{
+   border-width: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#indexShape24
+{
+   border-width: 0;
+}
+#indexShape23
+{
+   border-width: 0;
+}
+#indexShape22
+{
+   border-width: 0;
+}
+#indexShape21
+{
+   border-width: 0;
+}
+#wb_indexText40 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_indexText40 div
+{
+   text-align: left;
+}
+#indexShape20
+{
+   border-width: 0;
+}
+#indexShape18
+{
+   border-width: 0;
+}
+#indexShape17
+{
+   border-width: 0;
+}
+#indexShape16
+{
+   border-width: 0;
+}
+#indexShape15
+{
+   border-width: 0;
+}
+#indexShape14
+{
+   border-width: 0;
+}
+#indexImage19
+{
+   border: 0px #000000 solid;
+   padding: 0px 0px 0px 0px;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#indexLayer2
+{
+   background-color: transparent;
+   background-image: url(images/25345-22.jpg);
+   background-repeat: repeat-y;
+   background-position: center center;
+}
+#indexShape3
+{
+   border-width: 0;
+}
+#indexShape5
+{
+   border-width: 0;
+}
+#wb_indexText1 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_indexText1 div
+{
+   text-align: left;
+}
+#wb_indexText2 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_indexText2 div
+{
+   text-align: left;
+}
+#indexShape6
+{
+   border-width: 0;
+}
+#wb_indexText9 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_indexText9 div
+{
+   text-align: center;
+}
+#indexImage2
+{
+   border: 0px #000000 solid;
+   padding: 0px 0px 0px 0px;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#wb_indexText14 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_indexText14 div
+{
+   text-align: left;
+}
+#wb_indexText15 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_indexText15 div
+{
+   text-align: left;
+}
+#indexImage3
+{
+   border: 0px #000000 solid;
+   padding: 0px 0px 0px 0px;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#indexLayer3
+{
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#indexImage4
+{
+   border: 0px #000000 solid;
+   padding: 0px 0px 0px 0px;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#wb_indexText8 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: right;
+}
+#wb_indexText8 div
+{
+   text-align: right;
+}
+#indexShape8
+{
+   border-width: 0;
+}
+#wb_indexText44 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_indexText44 div
+{
+   text-align: left;
+}
+#indexImage5
+{
+   border: 0px #000000 solid;
+   padding: 0px 0px 0px 0px;
+   -webkit-animation: animate-flash 3500ms linear 300ms infinite normal;
+   -moz-animation: animate-flash 3500ms linear 300ms infinite normal;
+   animation: animate-flash 3500ms linear 300ms infinite normal;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#indexLayer4
+{
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#wb_indexText30 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_indexText30 div
+{
+   text-align: left;
+}
+#indexShape74
+{
+   border-width: 0;
+}
+#wb_indexText3 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_indexText3 div
+{
+   text-align: left;
+}
+#indexShape1
+{
+   border-width: 0;
+}
+#wb_indexText4 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_indexText4 div
+{
+   text-align: left;
+}
+#wb_indexText5 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_indexText5 div
+{
+   text-align: left;
+}
+#indexLayer1
+{
+   background-color: transparent;
+   background-image: url(images/0987.jpg);
+   background-repeat: repeat;
+   background-position: center center;
+}
+#indexLayer5
+{
+   background-color: transparent;
+   background-image: url(images/13722-4.jpg);
+   background-repeat: no-repeat;
+   background-position: center center;
+}
+#indexShape4
+{
+   border-width: 0;
+}
+#wb_indexText21 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_indexText21 div
+{
+   text-align: center;
+}
+#wb_indexText22 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_indexText22 div
+{
+   text-align: left;
+}
+#indexShape7
+{
+   border-width: 0;
+}
+#wb_indexText23 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_indexText23 div
+{
+   text-align: left;
+}
+#indexShape9
+{
+   border-width: 0;
+}
+#wb_indexText24 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_indexText24 div
+{
+   text-align: left;
+}
+#wb_indexText25 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_indexText25 div
+{
+   text-align: left;
+}
+#indexShape10
+{
+   border-width: 0;
+}
+#indexShape11
+{
+   border-width: 0;
+}
+#wb_indexText26 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_indexText26 div
+{
+   text-align: left;
+}
+#wb_indexText27 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_indexText27 div
+{
+   text-align: left;
+}
+#indexShape12
+{
+   border-width: 0;
+}
+#indexImage1
+{
+   border: 0px #000000 solid;
+   padding: 0px 0px 0px 0px;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#indexImage6
+{
+   border: 0px #000000 solid;
+   padding: 0px 0px 0px 0px;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#indexImage7
+{
+   border: 0px #000000 solid;
+   padding: 0px 0px 0px 0px;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#indexImage8
+{
+   border: 0px #000000 solid;
+   padding: 0px 0px 0px 0px;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#indexImage9
+{
+   border: 0px #000000 solid;
+   padding: 0px 0px 0px 0px;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#indexImage10
+{
+   border: 0px #000000 solid;
+   padding: 0px 0px 0px 0px;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#wb_indexText6 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_indexText6 div
+{
+   text-align: center;
+}
+#indexShape2
+{
+   border-width: 0;
+}
+#indexShape13
+{
+   border-width: 0;
+}
+#wb_indexText7 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_indexText7 div
+{
+   text-align: left;
+}
+#wb_indexText10 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_indexText10 div
+{
+   text-align: left;
+}
+#wb_indexText11 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_indexText11 div
+{
+   text-align: left;
+}
+#wb_indexText16 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_indexText16 div
+{
+   text-align: left;
+}
+#wb_indexText17 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_indexText17 div
+{
+   text-align: left;
+}
+#wb_indexText13 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_indexText13 div
+{
+   text-align: left;
+}
+#wb_indexText19 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_indexText19 div
+{
+   text-align: left;
+}
+#indexLayer12
+{
+   background-color: transparent;
+   background-image: url(images/rabota_upakovka_kazan-2.jpg);
+   background-repeat: repeat;
+   background-position: center center;
+}
+#indexImage35
+{
+   border: 0px #000000 solid;
+   padding: 0px 0px 0px 0px;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#wb_Text13 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_Text13 div
+{
+   text-align: center;
+}
+#wb_indexText73 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_indexText73 div
+{
+   text-align: center;
+}
+#wb_indexForm3
+{
+   background-color: transparent;
+   background-image: none;
+   border: 10px transparent solid;
+   border-radius: 10px;
+}
+#indexEditbox2
+{
+   border: 0px #F5F5F5 solid;
+   border-radius: 45px;
+   background-color: #F5F5F5;
+   background-image: none;
+   color :#000000;
+   font-family: "Proxima Nova Rg";
+   font-weight: normal;
+   font-size: 19px;
+   padding: 0px 0px 0px 20px;
+   text-align: left;
+   vertical-align: middle;
+}
+#indexEditbox2:focus
+{
+   border-color: #66AFE9;
+   -webkit-box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   -moz-box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   outline: 0;
+}
+#indexImage20
+{
+   border: 0px #000000 solid;
+   padding: 0px 0px 0px 0px;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#zvonokButton1
+{
+   border: 0px #82BD23 solid;
+   border-radius: 55px;
+   background-color: #05C00F;
+   background-image: none;
+   color: #FFFFFF;
+   font-family: FuturaBookC;
+   font-weight: normal;
+   font-size: 21px;
+}
+#indexLayer9
+{
+   background-color: transparent;
+   background-image: url(images/575c0c40d4be0-2.jpg);
+   background-repeat: repeat;
+   background-position: center top;
+}
+#indexImage12
+{
+   border: 0px #000000 solid;
+   padding: 0px 0px 0px 0px;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#wb_indexText63 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_indexText63 div
+{
+   text-align: center;
+}
+#wb_indexText64 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_indexText64 div
+{
+   text-align: center;
+}
+#wb_indexText65 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_indexText65 div
+{
+   text-align: center;
+}
+#indexImage17
+{
+   border: 0px #000000 solid;
+   padding: 0px 0px 0px 0px;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#indexImage21
+{
+   border: 0px #000000 solid;
+   padding: 0px 0px 0px 0px;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#wb_indexText18 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_indexText18 div
+{
+   text-align: center;
+}
+#indexLayer6
+{
+   background-color: transparent;
+   background-image: url(images/geometry.png);
+   background-repeat: repeat;
+   background-position: center center;
+}
+#wb_indexText20 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_indexText20 div
+{
+   text-align: center;
+}
+#wb_indexText57 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_indexText57 div
+{
+   text-align: left;
+}
+#wb_indexText58 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_indexText58 div
+{
+   text-align: left;
+}
+#wb_indexText28 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_indexText28 div
+{
+   text-align: left;
+}
+#wb_indexText29 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_indexText29 div
+{
+   text-align: left;
+}
+#wb_indexText31 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_indexText31 div
+{
+   text-align: left;
+}
+#wb_indexText32 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_indexText32 div
+{
+   text-align: left;
+}
+#indexLayer8
+{
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#wb_indexText35 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_indexText35 div
+{
+   text-align: center;
+}
+#wb_indexText37 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_indexText37 div
+{
+   text-align: left;
+}
+#wb_indexText38 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_indexText38 div
+{
+   text-align: left;
+}
+#indexImage18
+{
+   border: 0px #000000 solid;
+   padding: 0px 0px 0px 0px;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#wb_indexText39 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_indexText39 div
+{
+   text-align: left;
+}
+#indexImage22
+{
+   border: 0px #000000 solid;
+   padding: 0px 0px 0px 0px;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#wb_indexText41 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_indexText41 div
+{
+   text-align: left;
+}
+#wb_indexText42 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_indexText42 div
+{
+   text-align: left;
+}
+#indexImage23
+{
+   border: 0px #000000 solid;
+   padding: 0px 0px 0px 0px;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#indexImage25
+{
+   border: 0px #000000 solid;
+   padding: 0px 0px 0px 0px;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#wb_indexText43 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_indexText43 div
+{
+   text-align: left;
+}
+#wb_indexText45 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_indexText45 div
+{
+   text-align: left;
+}
+#wb_indexText46 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_indexText46 div
+{
+   text-align: left;
+}
+#wb_indexText47 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_indexText47 div
+{
+   text-align: left;
+}
+#indexImage16
+{
+   border: 0px #000000 solid;
+   padding: 0px 0px 0px 0px;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#indexImage26
+{
+   border: 0px #000000 solid;
+   padding: 0px 0px 0px 0px;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#indexImage27
+{
+   border: 0px #000000 solid;
+   padding: 0px 0px 0px 0px;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#indexImage28
+{
+   border: 0px #000000 solid;
+   padding: 0px 0px 0px 0px;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#indexImage13
+{
+   border: 0px #000000 solid;
+   padding: 0px 0px 0px 0px;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#indexImage24
+{
+   border: 0px #000000 solid;
+   padding: 0px 0px 0px 0px;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#indexShape25
+{
+   border-width: 0;
+}
+#wb_indexText12 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_indexText12 div
+{
+   text-align: center;
+}
+#indexShape26
+{
+   border-width: 0;
+}
+#indexShape28
+{
+   border-width: 0;
+}
+#wb_indexText34 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_indexText34 div
+{
+   text-align: left;
+}
+#indexLayer7
+{
+   background-color: #515151;
+   background-image: none;
+}
+#indexImage14
+{
+   border: 0px #000000 solid;
+   padding: 0px 0px 0px 0px;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#wb_indexText33 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: right;
+}
+#wb_indexText33 div
+{
+   text-align: right;
+}
+#indexShape19
+{
+   border-width: 0;
+}
+#wb_indexText49 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_indexText49 div
+{
+   text-align: left;
+}
+#indexImage15
+{
+   border: 0px #000000 solid;
+   padding: 0px 0px 0px 0px;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#indexImage32
+{
+   border: 0px #000000 solid;
+   padding: 0px 0px 0px 0px;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#indexImage29
+{
+   border: 0px #000000 solid;
+   padding: 0px 0px 0px 0px;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#wb_indexText68 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_indexText68 div
+{
+   text-align: center;
+}
+#wb_indexText36 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+}
+#wb_indexText36 div
+{
+   text-align: center;
+}
+			
+#indexLayer5 {background-attachment: fixed !important;}	
+#indexLayer6 {background-attachment: fixed !important;}	
+#indexLayer12 {background-attachment: fixed !important;}					
